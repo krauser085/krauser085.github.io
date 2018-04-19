@@ -23,6 +23,7 @@ Icon
 .Trashes
 .VolumeIcon.icns
 .com.apple.timemachine.donotpresent
+Gemfile.lock
 
 # Directories potentially created on remote AFP share
 .AppleDB
@@ -30,3 +31,4 @@ Icon
 Network Trash Folder
 Temporary Items
 .apdisk
+.vscode/
