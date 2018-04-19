@@ -5,7 +5,6 @@ date: 2018-04-19 21:49:24 +0900
 description: I start with the new blog platform on GITHUB # Add post description (optional)
 img:  # Add image post (optional)
 ---
-## 블로그 이전했습니다.
 ---------------------
 한 1년정도 워드프레스를 사용하다가 이번에 이전했습니다.
 
