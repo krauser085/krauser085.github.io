@@ -35,4 +35,4 @@ jekyll -v
 ```
 
 <br/>
-#### *다음 내용인 **Jekyll에 테마 적용하기**는 2틀 정도 후에 포스팅 하도록 하겠습니다.*
+### [Jekyll + Github으로 블로그 시작하기-2 Jekyll에 테마 적용하기](/start-jakyllandgithubpage-2/) 바로가기
