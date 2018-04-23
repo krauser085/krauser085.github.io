@@ -13,6 +13,10 @@ tags: [Jekyll, Github page, blog] # add tag
 - **Windows 10 bash**에서도 동일하게 돌아가는 것을 확인했습니다. windows 10 의 bash 설치법은 이전 글을 참고해 주세요 [**Windows 10 Bash 설치하기**](/microsoft-loves-linux/)
 
 <br/>
+### Jekyll 이란?
+> Jekyll은 **블로그 지향** 적인 **정적 사이트 엔진** 입니다. 가장 큰 기능은 **Markdown** 과 같은 markup 언어를 **정적 html 페이지**로 변환해주는 기능입니다. **Github Page**의 엔지으로서도 돌아가고 있기 때문에 호스팅 비용 걱정없이 간단하게 블로그를 만들 수 있습니다.<br/>
+
+<br/>
 ### Requirements
 - **Ruby version 2.2.5 이상** `ruby -v`로 확인
 - **RubyGems** `gem -v`로 확인
