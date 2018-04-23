@@ -40,3 +40,6 @@ git add .
 git commit -m "add new post"
 git push origin master
 ```
+<br/>
+새로운 글이 포스팅 된 것을 확인했습니다.
+![alt text](/assets/img/2018-04-23/add-new-post.png)
