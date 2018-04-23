@@ -29,7 +29,7 @@ tags: [Jekyll, Github page, blog] # add tag
 <br/>
  만약 jekyll 설치 중 에러가 발생한다면 `nokogiri -v`로 [**nokogiri**](http://www.nokogiri.org/) 가 설치되어 있는지 확인 바랍니다. 만약 설치되어 있지 않다면 아래와 같이 설치해 주세요.
 ```bash
-sudo apt-get install build-essential patch ruby-dev zlib1g-dev liblzma-dev
+sudo apt-get install build-essential patch zlib1g-dev liblzma-dev
 sudo gem install nokogiri
 ```
 <br/>
