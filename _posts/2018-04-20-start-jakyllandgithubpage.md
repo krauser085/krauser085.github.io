@@ -40,3 +40,4 @@ jekyll -v
 
 <br/>
 ### [Jekyll + Github으로 블로그 시작하기-2 Jekyll에 테마 적용하기](/start-jakyllandgithubpage-2/) 바로가기
+### [Jekyll + Github으로 블로그 시작하기-3 새 글 포스팅하기](/start-jakyllandgithubpage-3/) 바로가기

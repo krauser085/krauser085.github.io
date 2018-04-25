@@ -9,6 +9,8 @@ tags: [Jekyll, Github page, blog] # add tag
 -------------------------------------
 - 이전글
 ### [Jekyll + Github으로 블로그 시작하기-1](/start-jakyllandgithubpage/)로 바로가기
+- 다음글
+### [Jekyll + Github으로 블로그 시작하기-3 새 글 포스팅하기](/start-jakyllandgithubpage/)로 바로가기
 
 <br/>
 # local환경과 github page에 테마 적용하기 
