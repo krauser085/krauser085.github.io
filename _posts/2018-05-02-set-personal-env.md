@@ -13,7 +13,7 @@ SI 개발 쪽에서 일하다 보면 때때로 사용하는 단말이 바뀌는 
 > 생각날 때마다 조금씩 적어 나가려고 합니다.
 
 - [D2 Coding Fonts](https://github.com/naver/d2codingfont) - NAVER 에서 만든 코딩용 폰트  
-일본어 단말에서는 Consolus로 사용합니다.
+Consolus에서 최근에 갈아탔습니다. Consolus보다 많이 길쭉해서 아직 어색한 감은 있지만 한글 폰트는 좋아 보이네요.
 - [Cmder](http://cmder.net/) - Windows OS용 콘솔 에뮬레이터.  
 기본 `cmd` 콘솔이 워낙 부실하기 때문에 평소에는 **Cmder** 를 사용합니다.
 - **Chrome Browser**
