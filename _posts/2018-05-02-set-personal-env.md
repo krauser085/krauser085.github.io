@@ -16,3 +16,6 @@ SI 개발 쪽에서 일하다 보면 때때로 사용하는 단말이 바뀌는 
 일본어 단말에서는 Consolus로 사용합니다.
 - [Cmder](http://cmder.net/) - Windows OS용 콘솔 에뮬레이터.  
 기본 `cmd` 콘솔이 워낙 부실하기 때문에 평소에는 **Cmder** 를 사용합니다.
+- **Chrome Browser**
+- [Vimium 크롬 확장 프로그램](https://chrome.google.com/webstore/search/vimium?utm_source=chrome-ntp-icon) - **Vim** 사용이 익숙하신 분들께는 정말 강추 합니다. 생산성 향상에 큰 도움이 되는 Must Have app.
+- [SharpKeys](https://github.com/randyrants/sharpkeys) - 키 레지스트리 변경 앱입니다. 저는 일본 키보드를 쓰고 있기 때문에 한영키가 없는 문제를 이걸로 해결하고 있습니다. 그 외에도 **CapsLock** 버튼을 **Control** 로 바꿔서 사용하고 있습니다. 정말 편합니다. 대신 익숙해지면 다른 사람 단말기 쓸 때 진짜 불편해서 짜증난다는 단점이...
