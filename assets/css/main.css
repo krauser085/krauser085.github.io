@@ -442,7 +442,7 @@ template {
           border-radius: 3px;
   margin: 0;
 }
-.language-bash .highlight { background-color: black; }
+.highlight { background-color: black; }
 .highlighter-rouge {
   color: #ce887b;
   font-weight: 400;
