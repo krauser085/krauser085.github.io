@@ -134,3 +134,30 @@ fetch("http://bar.com/data.json", {
   // Do something with response
 });
 ```
+
+<br/>
+## IE11에서 fetch API 사용하기
+
+IE11 는 fetch 를 지원하지 않기 때문에 (참조: https://caniuse.com/#search=fetch) fetch api 를 사용하기 위해서는 polyfill 라이브러리를 사용해야 합니다.
+
+가장 많이 사용하는 fetch polyfill 라이브러리는 github 에서 제공하는 fetch 라이브러리 입니다.
+
+> https://github.com/github/fetch
+
+가장 쉬운 방법으로 IE에서 구현하는 방법을 소개합니다.
+
+1. github에서 파일을 직접 다운받거나 `npm install whatwg-fetch --save` 을 통해 설치합니다. (ver. 1.1)
+
+2. index.html에 다운받은 fetch.js 파일을 스크립트 추가합니다.
+
+```html
+  <script src="https://cdn.jsdelivr.net/npm/promise-polyfill@7/dist/polyfill.min.js"></script>
+  <script src="fetch.js"></script>
+```
+
+fetch 는 기본적으로 promise 를 리턴합니다.<br/>
+하지만 IE11 는 이 Promise 기능도 지원하지 않기 때문에 Promise의 polyfill 도 추가하였습니다.<br/>
+
+또 주의할점은 fetch polyfill 버전 1.1 이후의 경우 import, export의 모듈방식으로 구현됩니다.<br/>
+네.. 역시 IE11는 이것도 지원하지 않기 때문에 추가적으로 라이브러리가 또 필요하게 됩니다... ㅠㅠ<br/>
+간단하게 IE11에서 구현해보시려면 1.1 버전으로 사용하시면 됩니다.
