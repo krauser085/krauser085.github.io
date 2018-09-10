@@ -95,10 +95,10 @@ describe('sayHello()', ()=> {
 
 ```javascript
 function sayHello(element, name) {
-  if (!element) throw Error('유효하지 않은 element 입니다.')
-  if (!name) throw Error('name 이 없습니다.')
+  if (!element) throw new Error('유효하지 않은 element 입니다.')
+  if (!name) throw new Error('name 이 없습니다.')
 
-  return element.innerText = `Hello ${name}`
+  element.innerText = `Hello ${name}`
 }
 
 describe('sayHello()', ()=> {
@@ -125,3 +125,42 @@ describe('sayHello()', ()=> {
 함수에 주입되는 파라미터를 체크하는 **it** 테스트 케이스가 2개 추가 되었습니다. 그리고 element 와 name 변수는 공통으로 사용되기 때문에 beforeEach로 각 테스트가 실행되기전 전처리기로 설정해 주었습니다.
 
 에러가 발생하는 부분에서 실행 함수가 **throw** 로 에러를 던지면 **toThrowError** 는 에러가 던져질 것을 예상해서 **true** 를 반환하게 됩니다.
+
+<br/>
+## 함수 감시하기(spyOn)
+
+jasmin 에서는 **spyOn** 함수를 이용해 특정함수의 실행여부를 확인할 수 있습니다.
+
+```javascript
+const getView = function (element, name) {
+  return {
+    setElementText(text) {
+      element.innerText = text
+    }
+    sayHello() {
+      this.setElementText(`Hello ${name}`)
+    }
+  }
+}
+
+describe('view 모듈의' () => {
+  const element, name, view
+
+  beforeEach(() => {
+    element = document.querySelector('span')
+    name = 'YD'
+    view = getView(element, name)
+  })
+
+  describe('sayHello() 함수는', ()=> {
+    it('view 모듈의 setElementText() 를 실행한다', () => {
+      spyOn(view, 'setElementText')
+      view.sayHello()
+      expect(view.setElementText).toHaveBeenCalled()
+    })
+  })
+})
+```
+
+**spyOn** 메소드는 첫번째 인자로 모듈명을, 두번째 인자로 모듈의 메소드명을 받기 때문에 sayHello() 메소드를 포함하는 모듈을 만들어 테스트 케이스를 만들어 보았습니다.<br/>
+**spyOn** 으로 감시되는 메소드는 **toHaveBeenCalled()** 함수로 실행여부를 확인할 수 있습니다.
