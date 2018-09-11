@@ -3,7 +3,7 @@ layout: post
 title: Javascript - TDD로 개발하기 02 - Jasmin Framework
 date: 2018-09-03 00:04:47 +0900
 description: TDD-02 자스민 프레임워크의 기본 사용법
-img: javascript.png
+img: tdd.gif
 tags: [javascript, TDD]
 ---
 ---

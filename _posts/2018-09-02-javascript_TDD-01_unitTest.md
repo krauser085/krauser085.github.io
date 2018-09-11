@@ -3,7 +3,7 @@ layout: post
 title: Javascript - TDD로 개발하기 01 - Dependency Injection
 date: 2018-09-02 20:45:49 +0900
 description: Javascript 에서 TDD로 개발하기
-img: javascript.png
+img: tdd.gif
 tags: [javascript, TDD]
 ---
 
