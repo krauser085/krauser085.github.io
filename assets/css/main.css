@@ -439,6 +439,20 @@ template {
 .highlight { background-color: rgb(29, 29, 29); }
 .highlight table td { padding: 5px; }
 .highlight table pre { margin: 0; }
+
+/* simple code block */
+p .highlighter-rouge {
+  color: #efedf3;
+  font-weight: 400;
+  background-color: #444;
+  -webkit-border-radius: 3px;
+          border-radius: 3px;
+  padding: 0.1rem 0.5rem;
+}
+
+.highlight .hll {
+  background-color: #ffc;
+}
 .highlight .gh {
   color: #999999;
 }
@@ -604,7 +618,7 @@ template {
   color: #ffffff;
 }
 .highlight .n, .highlight .py, .highlight .nx {
-  color: #ffffff;
+  color: #4899e6;
 }
 .highlight .ow {
   color: #f92672;
